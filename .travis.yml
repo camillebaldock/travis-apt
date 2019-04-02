@@ -1,0 +1,8 @@
+sudo: required
+dist: trusty
+language: shell
+services:
+- docker
+script:
+- apt --version
+- docker --version
